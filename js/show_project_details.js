@@ -17,7 +17,7 @@ de procesamiento de lenguaje natural.</p>
             <!-- Botones para descargar los PDFs -->
             <div class="download-buttons">
                 <a href="tfg/Memoria_Alejandro_Sánchez_TFG.pdf" class="btn-small" download>Descargar Memoria</a>
-                <a href="tfg/Proyecto_Alejandro_Sánchez_TFG.rar" class="btn-small" download>Descargar Proyecto</a>
+                <a href="https://drive.google.com/file/d/1Jocp1CF5WAUc5Z45o-ZC7cJU2gK-VZh5/view?usp=sharing" class="btn-small" download>Descargar Proyecto</a>
             </div>
         </div>
         <div class="program-images">
