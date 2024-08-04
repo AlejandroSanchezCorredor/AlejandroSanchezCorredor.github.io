@@ -954,6 +954,7 @@ h2.resp-accordion {
 .about-header {
     text-align: center;
     margin-bottom: 50px;
+	flex-wrap: wrap;
 }
 
 /* Imagen y texto */
@@ -961,6 +962,9 @@ h2.resp-accordion {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+	flex: 1;
+    min-width: 150px; /* Asegura que la imagen no se haga demasiado pequeña */
+    margin-bottom: 15px;
 }
 
 .about-text {
@@ -1030,9 +1034,20 @@ h2.resp-accordion {
 }
 
 /* Responsive para dispositivos más pequeños */
-@media (max-width: 768px) {
-    .skill {
-        width: 100%; /* Los elementos ocupan el 100% del ancho en pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    .about-header {
+        flex-direction: column; /* Cambia a disposición vertical en pantallas pequeñas */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+    .about-text {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 15px;
+    }
+
+    .about-imag {
+        margin-bottom: 10px;
     }
 }
 .polls {
