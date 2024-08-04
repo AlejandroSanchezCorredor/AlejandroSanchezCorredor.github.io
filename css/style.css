@@ -1023,13 +1023,6 @@ h2.resp-accordion {
     width: 40px;
 }
 
-
-/* Responsive para dispositivos más pequeños */
-@media (max-width: 768px) {
-    .skill {
-        width: 100%; /* Los elementos ocupan el 100% del ancho en pantallas pequeñas */
-    }
-}
 .polls {
 	padding: 10px 0;
 }
@@ -1392,21 +1385,5 @@ padding-bottom: 2em;
 
 }
 
-
-@media (max-width: 480px) {
-    .pagination-control {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #page-indicator {
-        font-size: 14px;
-        margin: 5px 0;
-    }
-
-    .pagination-control a {
-        margin: 5px 0;
-    }
-}
 
 
