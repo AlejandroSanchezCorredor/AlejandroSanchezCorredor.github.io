@@ -26,7 +26,7 @@ function showDetails(program) {
         `;
     } else if (program === 'master') {
         detailsText = `
-            <h4>Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube (Próximamente)</h4>
+            <h4>Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube (En progreso)</h4>
             <p>El Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube se enfocará en proporcionar habilidades avanzadas en análisis de datos, aprendizaje automático y tecnologías en la nube. Este programa está diseñado para profesionales que buscan especializarse en ciencia de datos.</p>
             <div class="more-info" onclick="showGallery()">Volver</div>
         `;

@@ -1418,24 +1418,23 @@ padding-bottom: 2em;
         text-align: left;
     }
 
+    .download-buttons {
+        display: flex;
+        flex-direction: column; /* Coloca los botones en columna */
+        align-items: center; /* Alinea los botones en el centro */
+        gap: 20px; /* Añade espacio entre los botones */
+        width: 100%; /* Asegura que el contenedor de los botones ocupe todo el ancho disponible */
+    }
 
+    .btn-small {
+        width: 100%; /* Los botones ocuparán todo el ancho disponible */
+        max-width: 300px; /* Limita el ancho máximo en móviles */
+        text-align: center; /* Asegura que el texto esté centrado */
+        padding: 15px 0; /* Ajusta el padding para hacer los botones más grandes y legibles */
+    }
+    
 }
 
 
-@media (max-width: 480px) {
-    .pagination-control {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #page-indicator {
-        font-size: 14px;
-        margin: 5px 0;
-    }
-
-    .pagination-control a {
-        margin: 5px 0;
-    }
-}
 
 
