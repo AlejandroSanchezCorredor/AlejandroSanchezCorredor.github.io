@@ -149,7 +149,7 @@ function showProjectDetails(project) {
 
             <!-- Botones para descargar los PDFs -->
             <div class="download-buttons">
-                <a href="prediccion_noticias/Libreta_Alejandro_Sánchez_FakeNews.ipynb.ipynb" class="btn-small" download>Descargar libreta</a>
+                <a href="prediccion_noticias/Libreta_Alejandro_Sánchez_FakeNews.ipynb" class="btn-small" download>Descargar libreta</a>
                 <a href="https://drive.google.com/file/d/11tfGCD0clE-VrafI63FcgdmbsD8iTcFu/view?usp=drive_link" class="btn-small" download>Descargar Proyecto</a>
             </div>
 
