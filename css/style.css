@@ -1234,6 +1234,37 @@ padding-bottom: 2em;
     
 /* Media queries para dispositivos móviles */
 @media (max-width: 768px) {
+    .logo {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .welcome-text {
+        font-size: 16px; /* Reduce el tamaño del texto de bienvenida */
+        line-height: 1.5;
+    }
+
+    .top-menu {
+        position: fixed; /* Fija el menú en la pantalla */
+        top: 200px; /* Ajusta la posición del menú 50px desde la parte superior */
+        width: 100%; /* Hace que el menú ocupe todo el ancho de la pantalla */
+        z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+        background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    }
+    
+    /* Estilo para la superposición */
+    .overlay {
+        display: flex; /* Usa flexbox para alinear los elementos */
+        justify-content: space-between; /* Espacia los elementos a lo largo del contenedor */
+        align-items: center; /* Centra los elementos verticalmente */
+        padding: 10px 20px; /* Añade espacio alrededor del contenido */
+    }
+
+    .logo-image {
+        width: 40px;
+        height: auto;
+        margin: 0 auto 10px auto;
+    }
+
     .about-header {
         margin-bottom: 30px;
     }
@@ -1273,17 +1304,6 @@ padding-bottom: 2em;
     }
     .header-top {
         text-align: center;
-    }
-
-    .logo {
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    .logo-image {
-        width: 40px;
-        height: auto;
-        margin: 0 auto 10px auto;
     }
 
     .highlight {
