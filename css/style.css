@@ -7,9 +7,9 @@ body {
 .header {
     background: url("../images/banner.jpg") no-repeat center top;
     background-size: cover;
-    min-height: 700px; /* Asegura que 'Sobre mí' no sea visible */
+    min-height: 700px; 
     position: relative;
-    padding-top: 0; /* Asegura que el contenido comience desde la parte superior */
+    padding-top: 0; 
 }
 
 .header-top {
@@ -17,14 +17,14 @@ body {
 }
 
 .overlay {
-    background: rgba(0, 0, 0, 0.7); /* Fondo negro claro ajustado */
-    padding: 20px; /* Aumentado para mayor separación del texto */
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
     border-radius: 5px;
 }
 
 .welcome-text {
     font-family: 'Arvo', serif;
-    font-size: 1.2em; /* Aumentado para mejorar la legibilidad */
+    font-size: 1.2em; 
     color: #ffffff;
     text-align: left;
     margin-top: 10px;
@@ -117,27 +117,25 @@ body {
     border-bottom: 1px solid #e8491d;
 }
 
-/* Filtro grisáceo para la segunda imagen */
 .gallery-item:nth-child(2) .featured-image {
-    filter: grayscale(100%); /* Aplica un filtro grisáceo a la imagen */
+    filter: grayscale(100%); 
 	width: 55%;
 }
 
-/* Estilo para deshabilitar el botón "Más información" */
 .gallery-item:nth-child(2) .more-info {
-    background-color: gray; /* Cambia el fondo del botón a gris */
-    color: white; /* Cambia el color del texto a blanco */
-    pointer-events: none; /* Deshabilita los eventos de clic */
-    cursor: not-allowed; /* Cambia el cursor a no permitido */
-    width: 100%; /* Ocupa todo el ancho del contenedor */
+    background-color: gray; 
+    color: white; 
+    pointer-events: none; 
+    cursor: not-allowed; 
+    width: 100%; 
     height: auto;
-    position: absolute; /* Posiciona el botón absolutamente dentro del contenedor */
-    bottom: 0; /* Ajusta para que esté pegado al fondo */
-    left: 0; /* Alinea el botón al borde izquierdo */
-    transform: none; /* Elimina la transformación para centrar */
-    text-align: center; /* Centra el texto dentro del botón */
-    padding: 10px 0; /* Añade padding vertical para el botón */
-    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    transform: none;
+    text-align: center; 
+    padding: 10px 0; 
+    box-sizing: border-box; 
 }
 
 .caption {
@@ -148,7 +146,7 @@ body {
 }
 
 .lower-caption {
-    margin-top: 20px; /* Ajusta este valor para posicionar el texto más abajo */
+    margin-top: 20px; 
 	padding: 10px;
     font-size: 1.1em;
     color: #333;
@@ -179,23 +177,23 @@ body {
 }
 
 .btn-small {
-	color: #ffffff; /* Color del texto */
-	padding: 10px 20px; /* Espaciado interno */
-	border: none; /* Sin borde */
-	border-radius: 5px; /* Bordes redondeados */
-	cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+	color: #ffffff; 
+	padding: 10px 20px; 
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer;
 	text-align: center;
 	display: inline-block;
-	font-size: 14px; /* Tamaño de fuente más pequeño */
-	margin-right: 10px; /* Espaciado entre botones */
+	font-size: 14px; 
+	margin-right: 10px; 
 	background: #35424a;
 	color: #ffffff;
 	transition: background 0.3s;
-	text-decoration: none; /* Sin subrayado */
+	text-decoration: none; 
 }
 .btn-small:hover {
-	background: #e8491d; /* Cambiar el color de fondo al pasar el cursor */
-	color: #ffffff; /* Mantener el color del texto */
+	background: #e8491d; 
+	color: #ffffff; 
 }
 
 .program-title {
@@ -277,11 +275,11 @@ body {
 }
 
 .btn-more-info {
-    color: #e8491d; /* Color del texto */
-    padding: 10px 20px; /* Espaciado interno */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    color: #e8491d; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -293,17 +291,17 @@ body {
 }
 
 .btn-more-info:hover {
-    background-color: #e8491d; /* Color de fondo al pasar el mouse */
+    background-color: #e8491d; 
 }
 
 .btn-more-info.disabled {
-    background-color: gray; /* Cambia el fondo del botón a gris */
-    color: white; /* Cambia el color del texto a blanco */
-    pointer-events: none; /* Deshabilita los eventos de clic */
-    cursor: not-allowed; /* Cambia el cursor a no permitido */
-    padding: 10px 20px; /* Espaciado interno */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
+    background-color: gray; 
+    color: white; 
+    pointer-events: none; 
+    cursor: not-allowed; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -312,10 +310,10 @@ body {
 }
 .top-menu {
     position: absolute;
-    top: 45px;          /* Coincide con el margen superior de la clase .welcome-text */
-    right: 20px;        /* Ajusta el menú completamente a la derecha */
-    padding: 5px 10px;  /* Un padding más pequeño para reducir el tamaño de la barra */
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    top: 45px;        
+    right: 20px;      
+    padding: 5px 10px; 
+    background-color: rgba(0, 0, 0, 0.7); 
     z-index: 1000;
 }
 
@@ -323,16 +321,16 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;      /* Los items siguen alineados en línea */
+    display: flex;  
 }
 
 .top-menu ul li {
     display: inline-block;
-    padding: 5px 10px;  /* Reduce el padding de los elementos para hacerlos más pequeños */
+    padding: 5px 10px;  
 }
 
 .top-menu ul li a {
-    font-size: 0.9em;   /* Se reduce el tamaño del texto */
+    font-size: 0.9em;  
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -572,7 +570,7 @@ ul.wmuSliderPagination {
 
 
 .project-description p {
-    margin-bottom: 10px; /* Espacio entre el texto y el botón */
+    margin-bottom: 10px; 
 }
 
 .image-container {
@@ -589,7 +587,6 @@ ul.wmuSliderPagination {
     margin-top: 10px;
 }
 
-/* Estilo para las flechas de paginación */
 .pagination-arrow {
     width: 30px;
     height: auto;
@@ -609,12 +606,12 @@ ul.wmuSliderPagination {
 #page-indicator {
     font-size: 16px;
     margin: 0 5px;
-    color: #fff; /* Asegúrate de que el color contraste con el fondo */
+    color: #fff; 
 }
 
 .project-slider {
     position: relative;
-    min-height: 400px; /* Ajusta según sea necesario */
+    min-height: 400px; 
 }
 
 .project-slider .project-page {
@@ -958,13 +955,12 @@ h2.resp-accordion {
     flex-wrap: wrap;
 }
 
-/* Imagen y texto */
 .about-imag img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     flex: 1;
-    min-width: 150px; /* Asegura que la imagen no se haga demasiado pequeña */
+    min-width: 150px; 
     margin-bottom: 15px;
 }
 
@@ -975,20 +971,18 @@ h2.resp-accordion {
     color: #333;
 }
 
-/* Sección de habilidades */
 .skills-section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    justify-content: space-between; 
     margin-top: 30px;
 }
 
-/* Estilo de cada habilidad */
 .skill {
     display: flex;
     align-items: center;
-    width: 45%; /* Ajusta según sea necesario para tus elementos */
+    width: 45%; 
     padding: 10px;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -996,7 +990,6 @@ h2.resp-accordion {
     box-sizing: border-box;
 }
 
-/* Icono y información de la habilidad */
 .skill-icon {
     width: 50px;
     height: 50px;
@@ -1019,7 +1012,6 @@ h2.resp-accordion {
     display: inline-block;
 }
 
-/* Alinea el último elemento impar a la izquierda */
 .skill:last-child {
     margin-left: 0;
 }
@@ -1034,11 +1026,9 @@ h2.resp-accordion {
     width: 40px;
 }
 
-
-/* Responsive para dispositivos más pequeños */
 @media (max-width: 768px) {
     .skill {
-        width: 100%; /* Los elementos ocupan el 100% del ancho en pantallas pequeñas */
+        width: 100%; 
     }
 }
 .polls {
@@ -1100,27 +1090,26 @@ color: #2a404e;
 	padding: 25px 0;
 }
 
-/* Estilo de los iconos sociales */
 .social-icon {
     display: flex;
-    justify-content: center; /* Centra los iconos horizontalmente */
-    align-items: center; /* Centra los iconos verticalmente */
-    flex-wrap: nowrap; /* No permite que los iconos se envuelvan */
-    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .social-icon a {
     margin: 0 10px;
-    color: #333; /* Color de los iconos sociales */
+    color: #333;
     font-size: 1em;
     transition: color 0.3s ease;
-    text-align: center; /* Centra el texto dentro del enlace */
+    text-align: center;
     display: flex;
-    flex-direction: row; /* Coloca el icono y el texto en fila */
-    align-items: center; /* Centra el contenido verticalmente */
-    padding: 10px; /* Espacio alrededor del contenido */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: border 0.3s ease, background-color 0.3s ease; /* Transición suave para el borde y el fondo */
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: border 0.3s ease, background-color 0.3s ease;
 }
 
 .social-icon p {
@@ -1128,27 +1117,23 @@ color: #2a404e;
     vertical-align: middle;
 }
 
-
 .social-icon a:hover {
-    color: #ef664d; /* Color al pasar el cursor sobre los iconos sociales */
-    border: 2px solid orange; /* Borde de color naranja */
-    background-color: #fff5e6; /* Fondo ligeramente naranja */
+    color: #ef664d;
+    border: 2px solid orange;
+    background-color: #fff5e6;
 }
 
-/* Estilo de la imagen del icono */
 .icon1-img {
-    width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 30px;
     height: 30px;
-    margin-right: 5px; /* Espacio entre la imagen y el texto */
+    margin-right: 5px;
 }
 
-/* Estilo del texto al lado del icono */
 .icon-container p {
-    margin: 0; /* Elimina el margen del párrafo */
-    font-size: 14px; /* Ajusta el tamaño de la fuente según sea necesario */
-    color: #333; /* Color del texto */
+    margin: 0;
+    font-size: 14px;
+    color: #333;
 }
-
 
 .contact {
 	padding-bottom:4em;
@@ -1232,7 +1217,6 @@ padding-bottom: 2em;
 	background: url("../images/to-top2.png") no-repeat 0px 0px;
 }
     
-/* Media queries para dispositivos móviles */
 @media (max-width: 768px) {
     .logo {
         display: block;
@@ -1240,44 +1224,43 @@ padding-bottom: 2em;
         text-align: center;
     }
     .welcome-text {
-        font-size: 16px; /* Reduce el tamaño del texto de bienvenida */
+        font-size: 16px; 
         line-height: 1.5;
-        margin-bottom: 20px; /* Añade espacio debajo del texto de bienvenida */
+        margin-bottom: 20px; 
     }
 
     .top-menu {
-        position: relative; /* Elimina la posición fija */
-        width: 100%; /* Asegura que el menú ocupe todo el ancho de la pantalla */
-        z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
-        background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
-        padding: 10px 0; /* Añade espacio alrededor del contenido */
-        text-align: center; /* Centra el menú horizontalmente */
+        position: relative; 
+        width: 100%; 
+        z-index: 1000; 
+        background-color: rgba(0, 0, 0, 0.8); 
+        padding: 10px 0; 
+        text-align: center; 
     }
     
     .top-menu ul {
-        list-style: none; /* Elimina las viñetas de la lista */
+        list-style: none; 
         padding: 0;
         margin: 0;
     }
 
     .top-menu li {
         display: block;
-        margin: 10px 0; /* Espacia los elementos del menú verticalmente */
+        margin: 10px 0; 
     }
     
     .top-menu a {
-        color: white; /* Color del texto del menú */
+        color: white; 
         text-decoration: none;
         font-size: 18px;
         padding: 10px;
     }
     
-    /* Estilo para la superposición */
     .overlay {
-        display: flex; /* Usa flexbox para alinear los elementos */
-        justify-content: space-between; /* Espacia los elementos a lo largo del contenedor */
-        align-items: center; /* Centra los elementos verticalmente */
-        padding: 10px 20px; /* Añade espacio alrededor del contenido */
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 10px 20px; 
     }
 
     .logo-image {
@@ -1291,8 +1274,8 @@ padding-bottom: 2em;
     }
 
     .about-imag img {
-        width: 100px; /* Reducir el ancho para móviles */
-        height: auto; /* Mantener la proporción de la imagen */
+        width: 100px; 
+        height: auto; 
     }
 
 
@@ -1308,7 +1291,7 @@ padding-bottom: 2em;
     }
 
     .skill {
-        width: 80%; /* Ajusta según sea necesario para tus elementos */
+        width: 80%; 
     }
 
     .skill-icon {
@@ -1357,7 +1340,7 @@ padding-bottom: 2em;
     .pagination-control {
         order: 1;
         margin-top: auto;
-        margin-bottom: 10px; /* Ajusta este valor según sea necesario */
+        margin-bottom: 10px; 
     }
     .project-page {
         order: 0;
@@ -1402,7 +1385,7 @@ padding-bottom: 2em;
     }
 
     .gallery-item:last-child .caption {
-        padding-bottom: 40px; /* Ajusta el padding inferior según sea necesario */
+        padding-bottom: 40px; 
     }
     .program-info {
         flex-direction: column;
@@ -1420,17 +1403,17 @@ padding-bottom: 2em;
 
     .download-buttons {
         display: flex;
-        flex-direction: column; /* Coloca los botones en columna */
-        align-items: center; /* Alinea los botones en el centro */
-        gap: 20px; /* Añade espacio entre los botones */
-        width: 100%; /* Asegura que el contenedor de los botones ocupe todo el ancho disponible */
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        width: 100%;
     }
 
     .btn-small {
-        width: 100%; /* Los botones ocuparán todo el ancho disponible */
-        max-width: 300px; /* Limita el ancho máximo en móviles */
-        text-align: center; /* Asegura que el texto esté centrado */
-        padding: 15px 0; /* Ajusta el padding para hacer los botones más grandes y legibles */
+        width: 100%; 
+        max-width: 300px; 
+        text-align: center; 
+        padding: 15px 0; 
     }
     
 }
