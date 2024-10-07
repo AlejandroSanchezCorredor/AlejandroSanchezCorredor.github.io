@@ -1416,6 +1416,26 @@ padding-bottom: 2em;
         padding: 15px 0; 
     }
     
+    .social-icon {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    }
+    
+    .social-icon a {
+        flex: 0 0 48%; 
+        box-sizing: border-box; 
+        margin-bottom: 5px; 
+        text-align: center; 
+    }
+    
+    .icon1-img {
+        width: 24px; 
+        height: auto;
+    }
+
+
+    
 }
 
 
