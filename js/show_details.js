@@ -42,8 +42,8 @@ function showGallery() {
             <div class="more-info" onclick="showDetails('grado')">Más información</div>
         </div>
         <div class="gallery-item">
-            <img src="images/cidaen.jpg" alt="Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube (Próximamente)" class="featured-image">
-            <div class="caption">Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube (Próximamente)</div>
+            <img src="images/cidaen.jpg" alt="Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube (En progreso)" class="featured-image">
+            <div class="caption">Máster de Formación Permanente en Ciencia de Datos e Ingeniería de Datos en la Nube (En progreso)</div>
             <div class="more-info" onclick="showDetails('master')">Más información</div>
         </div>
     `;
